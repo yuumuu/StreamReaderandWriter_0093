@@ -20,6 +20,8 @@ int main() {
         getline(cin, line);
         // jika input 'q', maka keluar dari input baris
         if (line == "q") break;
+        // menulis dan memasukkan nilai dari variabel ke dalam file
+        ofs << line << endl;
     }
 
     return 0;
