@@ -26,6 +26,12 @@ int main() {
     ifstream ifs;
     ifs.open(filename + ".txt", ios::in);
 
+    if (ifs.is_open()) {
+        while (getline(ifs, line)) {
+            cout << line << endl;
+        }
+        ifs.close();
+    }
 
     return 0;
 }
