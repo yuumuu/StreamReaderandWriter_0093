@@ -10,5 +10,9 @@ int main() {
     cout << "Masukkan path file: ";
     cin >> filePath;
 
+    // membuka file dalam mode menulis
+    ofstream ofs;
+    ofs.open(filePath);
+
     return 0;
 }
