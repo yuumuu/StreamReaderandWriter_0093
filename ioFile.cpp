@@ -8,6 +8,8 @@ int main() {
 
     // membuka file dalam mode menulis
     ofstream ofs;
+    // menunjuk ke sebuah nama file
+    ofs.open("ex.txt");
 
     return 0;
 }
