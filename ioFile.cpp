@@ -23,6 +23,8 @@ int main() {
         // menulis dan memasukkan nilai dari variabel ke dalam file
         ofs << line << endl;
     }
+    // tutup file setelah selesai menulis
+    ofs.close();
 
     return 0;
 }
