@@ -26,5 +26,10 @@ int main() {
     // tutup file setelah selesai menulis
     ofs.close();
 
+    // membuka file dalam mode membaca
+    ifstream ifs;
+    // menunjuk ke sebuah nama file
+    ifs.open("ex.txt");
+
     return 0;
 }
