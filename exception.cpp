@@ -9,8 +9,8 @@ int main() {
         array<int, 3> data = {10, 20, 30};
         // pesan array integer 3 elemen
         cout << data.at(2) << endl;
-    } catch (...) {
-
+    } catch (exception& e) {
+        cout << "Terjadi kesalahan: " << e.what() << endl;
     }
 
     return 0;
