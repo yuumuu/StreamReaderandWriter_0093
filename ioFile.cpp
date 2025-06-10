@@ -31,5 +31,11 @@ int main() {
     // menunjuk ke sebuah nama file
     ifs.open("ex.txt");
 
+    cout << ">= Membuka dan membaca file" << endl;
+    // jika file ada
+    if(ifs.is_open()) {
+        
+    }
+
     return 0;
 }
