@@ -18,6 +18,8 @@ int main() {
         cout << "- ";
         // input setiap karakter dalam satu baris
         getline(cin, line);
+        // jika input 'q', maka keluar dari input baris
+        if (line == "q") break;
     }
 
     return 0;
