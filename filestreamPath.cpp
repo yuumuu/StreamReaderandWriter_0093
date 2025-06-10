@@ -15,5 +15,12 @@ int main() {
     ofs.open(filename + ".txt", ios::out);
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
+    while(true) {
+        cout << "- ";
+        getline(cin, line);
+        if (line == "q") break;
+        ofs << line << endl;
+    }
+
     return 0;
 }
