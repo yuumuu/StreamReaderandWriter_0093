@@ -21,6 +21,11 @@ int main() {
         if (line == "q") break;
         ofs << line << endl;
     }
+    ofs.close();
+
+    ifstream ifs;
+    ifs.open(filename + ".txt", ios::in);
+
 
     return 0;
 }
