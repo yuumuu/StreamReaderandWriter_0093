@@ -38,7 +38,9 @@ int main() {
         while( getline(ifs, line)) {
             // dan tampilkan baris
             cout << line << '\n';
-        } 
+        }
+        // tutup file setelah selesai membaca
+        ifs.close();
     }
 
     return 0;
