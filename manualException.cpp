@@ -4,8 +4,9 @@ using namespace std;
 int main() {
     try {
         cout << "Selamat Belajar di Prodi TI UMY" << endl;
-        throw 10;
+        // throw 10;
         cout << "Baris ini tidak akan dieksekusi" << endl;
+        cout << "-> Exception (throw) tidak dilempar" << endl;
     } catch (int a) {
         // blok ini akan dieksekusi jika exception bertipe int
         cout << "Terjadi kesalahan: Baris ini dieksekusi" << endl;
