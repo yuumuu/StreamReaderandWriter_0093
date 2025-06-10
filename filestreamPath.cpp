@@ -5,14 +5,15 @@ using namespace std;
 
 int main() {
     string line;
-    string filePath;
+    string filename;
 
-    cout << "Masukkan path file: ";
-    cin >> filePath;
+    cout << "Masukkan nama file: ";
+    cin >> filename;
 
     // membuka file dalam mode menulis
     ofstream ofs;
-    ofs.open(filePath);
+    ofs.open(filename + ".txt", ios::out);
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
     return 0;
 }
