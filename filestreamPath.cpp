@@ -31,7 +31,7 @@ int main() {
             cout << line << endl;
         }
         ifs.close();
-    }
+    } else cout << "Gabisa buka file karna gaada" << endl;
 
     return 0;
 }

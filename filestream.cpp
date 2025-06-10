@@ -41,9 +41,7 @@ int main() {
         }
         // tutup file setelah selesai membaca
         ifs.close();
-    }
-    // klo gaada filenya
-    else cout << "Gabisa buka file karna gaada" << endl;
+    } else cout << "Gabisa buka file karna gaada" << endl;
     
     return 0;
 }
