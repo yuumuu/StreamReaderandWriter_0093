@@ -4,12 +4,21 @@
 using namespace std;
 
 int main() {
-    string baris;
+    string line;
 
     // membuka file dalam mode menulis
     ofstream ofs;
     // menunjuk ke sebuah nama file
     ofs.open("ex.txt");
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
+    // unlimited loop untuk menulis
+    while(true) {
+        cout << "- ";
+        // input setiap karakter dalam satu baris
+        getline(cin, line);
+    }
 
     return 0;
 }
